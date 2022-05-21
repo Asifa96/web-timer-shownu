@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body bgcolor="pink">
+<p>
+  <center><h1>TIMER BIRTHDAY SHOWNU MONSTA X<br>
+              18 JUNE 2022
+  </h1>
+  </center>
+</p>
+<p id="demo"></p>
+
+<p> 
+  <img src="shownu.png" style="width:35%; height:50%">
+  <center><h1>FACTS<br>
+              SHOWNU MONSTA X</h1>
+              – He was born in Changdong, Donbonggu, Seoul, South Korea.<br>
+              – He doesn’t have any siblings.<br>
+              – He was a former JYP Entertainment’s trainee with GOT7, but left due to training absences.<br>
+              – He was a JYP trainee for about 2 years.<br>
+              – He is still friends with GOT7.<br>
+              – Stray Kids‘ Bang Chan revealed that when they were trainees, he and Shownu shared a dorm. (Finding SKZ)
+              – He used to be a member of the K-Pop boy group NUBOYZ.<br>
+              – Shownu’s stage name means I want to “show you new things”. He was in NUBOYZ and wanted to give fans a SHOW = SHOW + NU.<br>
+              – He likes meat and to exercise.<br>
+              – He was Lee Hyori’s back-up dancer and performed with her (“Bad Girls,” “Going Crazy” “U-Go-Girl”)<br>
+              – He starred in “High-end Crush” (2015), “Dae Jang Geum is Watching” (ep. 9-10)<br>
+              – He participates in creating most of Monsta X’s choreographies.<br>
+              – In 2016 Shownu was a contestant on the dance show “Hit the Stage”.<br>
+              – His representative animal from “Safari in Monbebe World” is a Bear.<br>
+              – Hobbies: listening to music.<br>
+              – On July 22, 2021 Shownu enlisted in the military.<br>
+              – Shownu’s ideal type: A pure woman like the actress Gong Hyojin.<br>
+  
+  </center>
+</p>
+<hr>
+<P>
+  <center>
+    Asifa Lestari - 2022<br>
+    <a href="//kprofiles.com/monsta-x-members-profile/">Sumber</a>
+  </center>
+</P>
+
+<script>
+var countDownDate = new Date("june 18, 2022 10:00:20").getTime();
+
+var x = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
